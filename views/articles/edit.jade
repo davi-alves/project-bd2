@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+
+  form.form-horizontal(method="post", role="form", action="/articles")
+    input(type="hidden", name="_id", value= article._id)
+      input(type="hidden", name="slug", value= article.slug)
+    div.form-group
+      label.col-sm-2.control-label(for="article-title") Título
+      div.col-sm-10
+        input.form-control(type="text", name="title", id="article-title" , value= article.title)
+    div.form-group
+      label.col-sm-2.control-label(for="article-body") Corpo
+      div.col-sm-10
+        textarea.form-control( name="body", rows=10, id="article-body" )= article.body
+    div.form-group
+      div.col-sm-offset-2.col-sm-10
+        button.btn.btn-primary(type="submit") Salvar

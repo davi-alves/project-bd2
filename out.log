@@ -1,0 +1,36 @@
+Failed to load c++ bson extension, using pure JS version
+Express server listening on port 3000
+[90mGET /articles [32m200 [90m426ms - 374b[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m11ms[0m
+[90mGET /stylesheets/style.css [32m200 [90m103ms - 232b[0m
+[90mGET /articles/new [32m200 [90m71ms - 985b[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mPOST /articles [36m302 [90m21ms - 74b[0m
+[90mGET /articles [32m200 [90m72ms - 1.27kb[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+Failed to load c++ bson extension, using pure JS version
+Express server listening on port 3000
+[90mGET /articles [36m304 [90m423ms[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m10ms[0m
+[90mGET /stylesheets/style.css [32m200 [90m98ms - 232b[0m
+[90mGET /articles [36m304 [90m89ms[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /articles [36m304 [90m72ms[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET / [32m200 [90m21ms - 366b[0m
+[90mGET /stylesheets/style.css [32m200 [90m3ms - 232b[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [32m200 [90m284ms - 100.49kb[0m
+[90mGET /articles [32m200 [90m44ms - 1.27kb[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /articles/leriado-of-siruin [32m200 [90m31ms - 1.61kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m0ms[0m
+[90mPOST /articles [36m302 [90m14ms - 74b[0m
+[90mGET /articles [32m200 [90m42ms - 1.28kb[0m
+[90mGET /stylesheets/boostrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m

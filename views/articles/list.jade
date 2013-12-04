@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+
+  mixin dateFormat(time)
+    span #{('0' + time.getDate()).slice(-2)}/#{('0' + (time.getMonth()+1)).slice(-2)}/#{time.getFullYear()} às #{('0' + (time.getHours()+1)).slice(-2)}:#{('0' + (time.getMinutes()+1)).slice(-2)}
+
+  div.row
+    each article in articles
+      div.cl-sm-12
+        div.pull-right
+          a.btn.btn-danger(href="/articles/" + article.slug + "/delete", title="Remover") &times;
+        h2 #{article.title}&nbsp;
+          if article.updated_at && article.updated_at.getTime() > article.created_at.getTime()
+            small.faded Atualizado em&nbsp;
+              +dateFormat(article.updated_at)
+          else
+            small.faded Criado em&nbsp;
+              +dateFormat(article.created_at)
+        p= article.body
+        p
+          a.btn.btn-default(href="/articles/" + article.slug, title="Editar") Editar »
+
